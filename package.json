@@ -1,25 +1,26 @@
 {
-	"name": "react-hotjar",
-	"version": "2.0.2",
-	"description": "Small component to implement Hotjar into your react application",
-	"main": "index.js",
-	"scripts": {
-		"test": "-"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/abdalla/react-hotjar.git"
-	},
-	"keywords": [
-		"HotJar",
-		"React"
-	],
-	"author": "Carlos Abdalla",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/abdalla/react-hotjar/issues"
-	},
-	"homepage": "https://github.com/abdalla/react-hotjar#readme",
+  "name": "react-vue-adform",
+  "version": "1.0.0",
+  "description": "Small component to implement Adform into your react/Vue application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloqhouse/react-vue-adform.git"
+  },
+  "keywords": [
+    "Adform",
+    "React",
+    "Vue"
+  ],
+  "author": "JFGHT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloqhouse/react-vue-adform/issues"
+  },
+	"homepage": "https://github.com/bloqhouse/react-vue-adform#readme",
 	"devDependencies": {
 		"eslint": "^5.14.1"
 	}
