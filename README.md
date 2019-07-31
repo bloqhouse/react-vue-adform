@@ -1,19 +1,28 @@
-# react-hotjar
-Small component to implement Hotjar into your react application
+# react-vue-adform
+Small component to implement Adform into your react/vue application
 
 # Installation
 ```bash
-npm install react-hotjar --save
+npm install react-vue-adform --save
+```
+
+```bash
+yarn add react-vue-adform
 ```
 
 # Use / Example
 ```javascript
-import { hotjar } from 'react-hotjar';
+import { adform } from 'react-vue-adform';
 
-hotjar.initialize(hjid, hjsv);
+const params = {
+  pm: 666666,
+  divider: encodeURIComponent('|'),
+  pagename: encodeURIComponent('Example name'),
+};
+
+adform.initialize(params);
 ```
-- hjid: Stands for 'Hotjar ID' - Your site's ID. This is the ID which tells Hotjar which site settings it should load and where it should save the data collected.
-
-- hjsv: Stands for 'Hotjar Snippet Version' - The version of the Tracking Code you are using. This is only needed if Hotjar ever updates the Tracking Code and needs to discontinue older ones. Knowing which version your site includes allows hotjar team to contact you and inform you accordingly.
-
-You can learn more from [Understanding the Tracking Code](https://docs.hotjar.com/v1.0/docs/understanding-the-tracking-code) of Hotjar docs
+- params: it's an object that should contain:
+  - pm: as the adform id
+  - divider: as the url divider. Example: encodeURIComponent('|')
+  - pagename: as the page name. Example: encodeURIComponent('Example name')

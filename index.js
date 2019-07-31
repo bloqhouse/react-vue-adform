@@ -1,9 +1,9 @@
-var hotjar = require('./src/react-hotjar');
+const adform = require('./src/adform');
 
 module.exports = {
-	hotjar: {
-		initialize: function initialize(id, sv) {
-			hotjar(id, sv);
+	adform: {
+		initialize: function initialize(params) {
+			adform(params);
 		}
 	}
 };
